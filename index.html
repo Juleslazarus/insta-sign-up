@@ -21,8 +21,8 @@
             <p class="or">OR</p>
             <div class="inputSection">
                 <!-- <form method="post" action="#"> -->
-                    <input type="email" name="emailBox" class="emailBox" placeholder="Mobile Number Or Email" required>
-                    <input type="text" name="nameBox" class="nameBox" placeholder="Full Name" required> 
+                    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="emailBox" class="emailBox" placeholder="Mobile Number Or Email" required>
+                    <input type="text" pattern="[a-z]" name="nameBox" class="nameBox" placeholder="Full Name" required> 
                     <input type="text" name="usernameBox" class="usernameBox" placeholder="Username" required>
                     <input type="password" name="passwordBox" class="passwordBox" placeholder="Password" required>
                 <!-- </form> -->
